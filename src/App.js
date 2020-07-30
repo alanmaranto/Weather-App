@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from './components/Header';
 import './index.css';
 
 function App() {
   return (
-    <h1>Weather</h1>
+    <>
+    <Header title='Weather React App' /> 
+    </>
   );
 }
 
